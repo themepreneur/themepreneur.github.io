@@ -5,18 +5,17 @@
   font-family: 'Inter', sans-serif;
 }
 
-.theme-title {
+.product-title {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
 }
 
-.theme-publication-date {
-  color: #6C757D;
-  font-size: 15px;
+.product-price {
+  float: right;
 }
 
-.theme-publication-date-icon, .rating-icon {
-  width: 18px;
+.product-labels {
+  margin-top: 8px;
 }
 
 .bg-secondary {
@@ -25,62 +24,96 @@
   font-weight: 400 !important;
 }
 
-.theme-title-price {
-  float: right;
+.product-colors {
+  margin-top: 16px;
 }
 
-.theme-description {
-  font-size: 14px;
-}
-
-.btn {
-  font-size: 14px;
-}
-
-.theme-author {
+.product-author {
   text-decoration: none;
   color: #000 !important;
   font-weight: 400;
+  font-size: 14px;
+  margin-top: 16px;
+  display: inline-block;
 }
 
-.theme-author-image {
+.product-author-image {
   width: 32px;
   margin-right: 12px;
   border-radius: 50% !important;
 }
 
-.theme-actions {
+.product-publication-date {
+  color: #6C757D;
+  font-size: 13px;
+  margin-top: 16px !important;
+}
+
+.product-publication-date-icon, .rating-icon {
+  width: 16px;
+}
+
+.product-description {
+  font-size: 13px;
+  color: #6C757D;
+  margin-top: 16px !important;
+}
+
+.product-features {
+  color: #000;
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+.product-rating {
+  margin-top: 32px;
+}
+
+.btn {
+  font-size: 13px;
+}
+
+.product-actions {
   float: right;
 }
 
-.theme-color {
-  width: 24px;
-  height: 24px;
-  border-radius: 12px !important;
+.product-color {
+  width: 20px;
+  height: 20px;
+  border-radius: 0px !important;
   display: inline-block;
-  border: 1px solid transparent !important;
+  border: 1.7px solid transparent !important;
+  padding: 0;
 }
 
-.theme-color-1 {
+.product-color-1 {
   background-color: #C2AD7B;
 }
 
-.theme-color-2 {
+.product-color-2 {
   background-color: #D5BA9F;
 }
 
-.theme-color-3 {
+.product-color-3 {
   background-color: #DDDDDD;
 }
 
-.theme-color-4 {
+.product-color-4 {
   background-color: #6F7E7D;
 }
 
-.theme-color-5 {
+.product-color-5 {
   background-color: #AAD1D6;
 }
 
-.theme-color:focus {
-  border: 1px solid black !important;
+.product-color:focus {
+  border: 1.7px solid black !important;
+}
+
+p {
+  margin: 0 !important;
+}
+
+.btn-light {
+  background-color: #E5E7E9;
 }
