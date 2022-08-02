@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Themepreneur</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="card" style="width: 24rem;">
+      <img src="./images/project_banner.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title theme-title">Theme Title
+          <span class="theme-title-price">$24.99</span>
+        </h5>
+        <p>
+          <span class="badge bg-secondary">Esports</span>
+          <span class="badge bg-secondary">Gaming</span>
+          <span class="badge bg-secondary">Merchandise</span>
+        </p>
+
+        <p class="mt-4" data-bs-toggle="tooltip" data-bs-placement="left"
+        data-bs-title="Theme Palette">
+          <button class="theme-color theme-color-1"></button>
+          <button class="theme-color theme-color-2"></button>
+          <button class="theme-color theme-color-3"></button>
+          <button class="theme-color theme-color-4"></button>
+          <button class="theme-color theme-color-5"></button>
+        </p>
+        <p class="card-text theme-description mb-2 mt-4" data-bs-toggle="tooltip" data-bs-placement="left"
+        data-bs-title="Author">
+          <a href="#" class="theme-author">
+            <img src="./images/Rectangle 2.png" class="theme-author-image">Xader Filippov
+          </a>
+        </p>
+        
+        <p class="card-text theme-description">
+          Theme description. Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+          praesentium.
+
+          <span class="d-block mt-3"><img src="./images/icons/done_FILL0_wght400_GRAD0_opsz20 1.svg" alt="">Responsive design</span>
+          <span class="d-block mt-2"><img src="./images/icons/done_FILL0_wght400_GRAD0_opsz20 1.svg" alt="">SEO</span>
+          <span class="d-block mt-2"><img src="./images/icons/done_FILL0_wght400_GRAD0_opsz20 1.svg" alt="">Customizable</span>
+        </p>
+
+        <p class="theme-publication-date mb-5" data-bs-toggle="tooltip" data-bs-placement="left"
+          data-bs-title="Published on">
+          <img src="./images/icons/schedule_FILL0_wght400_GRAD0_opsz20.svg" alt="" class="theme-publication-date-icon">
+          August 14, 2022
+        </p>
+        
+        <span>
+          <img src="./images/icons/star_FILL0_wght400_GRAD0_opsz20.svg" alt="" class="rating-icon">
+          <img src="./images/icons/star_FILL0_wght400_GRAD0_opsz20.svg" alt="" class="rating-icon">
+          <img src="./images/icons/star_FILL0_wght400_GRAD0_opsz20.svg" alt="" class="rating-icon">
+          <img src="./images/icons/star_FILL0_wght400_GRAD0_opsz20.svg" alt="" class="rating-icon">
+          <img src="./images/icons/grade_FILL0_wght400_GRAD0_opsz20.svg" alt="" class="rating-icon">
+        </span>
+        <span class="theme-actions">
+          <a href="#" class="btn btn-outline-dark">Preview</a>
+        <a href="#" class="btn btn-dark">Purchase</a>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+  </script>
+</body>
+
+</html>
