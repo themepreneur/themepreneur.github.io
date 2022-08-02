@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
-  border-radius: 0 !important;
   font-family: 'Inter', sans-serif;
+}
+
+.product {
+  border-radius: 8px !important;
 }
 
 .product-title {
@@ -19,13 +22,32 @@
 }
 
 .bg-secondary {
-  background-color: #F0F1F2 !important;
+  background-color: #fff !important;
   color: #000;
+  border: 1px solid #000;
   font-weight: 400 !important;
+  margin-right: 4px;
+}
+
+.bg-dark {
+  background-color: #000 !important;
+  color: #fff;
+  border: 1px solid #000;
+  font-weight: 500 !important;
+  margin-right: 4px;
+  width: 50px;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  margin: 0;
 }
 
 .product-colors {
   margin-top: 16px;
+}
+
+.product-image {
+  border-radius: 8px;
 }
 
 .product-author {
@@ -40,7 +62,9 @@
 .product-author-image {
   width: 32px;
   margin-right: 12px;
-  border-radius: 50% !important;
+  border-radius: 8px !important;
+  border: 2px solid #fff;
+  outline: 1px solid #000;
 }
 
 .product-publication-date {
@@ -60,7 +84,6 @@
 }
 
 .product-features {
-  color: #000;
   font-size: 13px;
   margin-top: 8px;
 }
@@ -71,6 +94,17 @@
 
 .btn {
   font-size: 13px;
+  border-radius: 8px;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.btn-dark {
+  background-color: #000 !important;
+}
+
+.product-bookmark-icon {
+  width: 18px;
 }
 
 .product-actions {
@@ -117,3 +151,23 @@ p {
 .btn-light {
   background-color: #E5E7E9;
 }
+
+@media (max-width: 576px) {
+  .product {
+    width: 100% !important;
+  }
+}
+
+/* @media (min-width: 576px) { ... } */
+
+/* // Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... } */
